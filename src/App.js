@@ -22,7 +22,7 @@ function App() {
         joinChatTimeout = setTimeout(async () => {
             // Create a new SignalR connection
             const connection = new HubConnectionBuilder()
-                .withUrl("chatapp-fvg2hsgccmfsf5fs.ukwest-01.azurewebsites.net/chat")
+                .withUrl("https://chatapp-fvg2hsgccmfsf5fs.ukwest-01.azurewebsites.net/chat")
                 .withAutomaticReconnect()
                 .build();
 
